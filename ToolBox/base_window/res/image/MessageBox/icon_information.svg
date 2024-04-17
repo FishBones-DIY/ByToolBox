@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>图标-弹窗-警示图标1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="天擎客户端V10切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-311.000000, -4751.000000)">
+            <g id="图标-弹窗-警示图标1" transform="translate(311.000000, 4751.000000)">
+                <path d="M20,1 C9.50658975,1 1,9.50658975 1,20 C1,30.4934102 9.50658975,39 20,39 C30.4934102,39 39,30.4934102 39,20 C39,9.50658975 30.4934102,1 20,1 Z" id="矩形" stroke="#007FFA" stroke-width="2"></path>
+                <path d="M20,11 C18.8958533,11 18,12.007911 18,12.8571101 L18,22.1496254 C18,22.9987917 18.8958107,24 20,24 C21.1041467,24 22,22.9988245 22,22.1496582 L22,12.8571429 C21.9999574,12.007911 21.1041467,11 20,11 Z" id="路径" fill="#007FFA" fill-rule="nonzero" transform="translate(20.000000, 17.500000) scale(1, -1) translate(-20.000000, -17.500000) "></path>
+                <path d="M18,28 C18,29.1045695 18.8954305,30 20,30 C21.1045695,30 22,29.1045695 22,28 C22,26.8954305 21.1045695,26 20,26 C18.8954305,26 18,26.8954305 18,28 L18,28 Z" id="路径" fill="#007FFA" fill-rule="nonzero" transform="translate(20.000000, 28.000000) scale(1, -1) translate(-20.000000, -28.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

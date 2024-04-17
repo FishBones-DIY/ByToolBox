@@ -1,0 +1,22 @@
+# Visual Studio files
+.vs
+*.sdf
+*.opensdf
+*.VC.opendb
+*.suo
+*.user
+_ReSharper.Caches/
+Win32-Debug/
+Win32-Release/
+x64-Debug/
+x64-Release/
+Debug/
+Release/
+*.vcxproj.user
+*.txt
+*.aps
+/build/unit_test
+*.note
+*.bak
+*.del
+note.list

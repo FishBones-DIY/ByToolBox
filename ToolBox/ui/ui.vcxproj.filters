@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="main_window">
+      <UniqueIdentifier>{0ede81a5-c63a-42ff-b9ec-43c7184e0cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tab_widgets">
+      <UniqueIdentifier>{37f53d3c-9736-4b4d-8544-e95ff3f81a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="by_tab_widget">
+      <UniqueIdentifier>{8614ca5b-0656-40ae-be79-1dd08bda639a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sticky_note_tab_widget">
+      <UniqueIdentifier>{a383efd1-7b8b-4f7f-8bd7-36ae6d24a679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rotate">
+      <UniqueIdentifier>{d9049587-bd76-429f-9086-6ff04dd28d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message_box">
+      <UniqueIdentifier>{da2f7a71-1669-4e83-8709-a1973770f1cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="main_window.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="main_window.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_window.cpp">
+      <Filter>main_window</Filter>
+    </ClCompile>
+    <ClCompile Include="shortcut_key_widget.cpp">
+      <Filter>tab_widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="by_tab_widget\by_tab_widget.cpp">
+      <Filter>by_tab_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="sticky_note_tab_widget\sticky_note_tab_widget.cpp">
+      <Filter>sticky_note_tab_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="rotate\CRotateWidgetBase.cpp">
+      <Filter>rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="sticky_note_tab_widget\by_line_edit.cpp">
+      <Filter>sticky_note_tab_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="sticky_note_tab_widget\note_title_button.cpp">
+      <Filter>sticky_note_tab_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="sticky_note_tab_widget\by_plain_text_edit.cpp">
+      <Filter>sticky_note_tab_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="sticky_note_tab_widget\note_title_right_press_menu.cpp">
+      <Filter>sticky_note_tab_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="message_box\by_messagebox.cpp">
+      <Filter>message_box</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="main_window.h">
+      <Filter>main_window</Filter>
+    </QtMoc>
+    <QtMoc Include="shortcut_key_widget.h">
+      <Filter>tab_widgets</Filter>
+    </QtMoc>
+    <QtMoc Include="sticky_note_tab_widget\sticky_note_tab_widget.h">
+      <Filter>sticky_note_tab_widget</Filter>
+    </QtMoc>
+    <QtMoc Include="by_tab_widget\by_tab_widget.h">
+      <Filter>by_tab_widget</Filter>
+    </QtMoc>
+    <QtMoc Include="rotate\CRotateWidgetBase.h">
+      <Filter>rotate</Filter>
+    </QtMoc>
+    <QtMoc Include="sticky_note_tab_widget\by_line_edit.h">
+      <Filter>sticky_note_tab_widget</Filter>
+    </QtMoc>
+    <QtMoc Include="sticky_note_tab_widget\note_title_button.h">
+      <Filter>sticky_note_tab_widget</Filter>
+    </QtMoc>
+    <QtMoc Include="sticky_note_tab_widget\by_plain_text_edit.h">
+      <Filter>sticky_note_tab_widget</Filter>
+    </QtMoc>
+    <QtMoc Include="sticky_note_tab_widget\note_title_right_press_menu.h">
+      <Filter>sticky_note_tab_widget</Filter>
+    </QtMoc>
+    <QtMoc Include="message_box\by_messagebox.h">
+      <Filter>message_box</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ui.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\base_window\res\image\coconut-cocktail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\base_window\res\image\coconut-cocktail.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

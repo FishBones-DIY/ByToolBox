@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/public">
+        <file alias="close">image/close.png</file>
+        <file alias="max">image/max.png</file>
+        <file alias="min">image/min.png</file>
+        <file alias="public_style">qss/public_style.qss</file>
+        <file alias="default_logo">image/coconut-cocktail.png</file>
+        <file alias="default_icon">image/fire-element.png</file>
+        <file alias="close_black">image/close_black.png</file>
+        <file alias="min_black">image/min_black.png</file>
+        <file alias="already_saved">image/already-saved.png</file>
+        <file alias="doing_save">image/doing-save.png</file>
+        <file>image/add_note.png</file>
+        <file alias="message_box_warning">image/exceed-tip.png</file>
+        <file>image/add_note1.png</file>
+        <file>image/add_note2.png</file>
+        <file alias="add_note">image/add_note3.png</file>
+    </qresource>
+</RCC>

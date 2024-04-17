@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>图标-弹窗-对号图标</title>
+    <desc>Created with Sketch.</desc>
+    <g id="天擎客户端V10控件库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="控件" transform="translate(-135.000000, -4751.000000)" stroke="#007FFA">
+            <g id="图标-弹窗-对号图标" transform="translate(136.000000, 4752.000000)">
+                <circle id="椭圆形" stroke-width="2" cx="19" cy="19" r="19"></circle>
+                <line x1="17.5" y1="24.5" x2="28" y2="14" id="路径-7" stroke-width="3"></line>
+                <line x1="17" y1="24" x2="11" y2="18" id="路径-7备份" stroke-width="3"></line>
+            </g>
+        </g>
+    </g>
+</svg>

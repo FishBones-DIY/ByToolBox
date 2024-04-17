@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14" height="14" rx="3"></rect>
+        <rect id="path-3" x="0" y="0" width="8" height="1.5" rx="0.75"></rect>
+    </defs>
+    <g id="天擎客户端V10控件库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-81.000000, -2444.000000)">
+            <g id="B" transform="translate(79.000000, 2163.000000)">
+                <g id="Checkbox/Active+Text" transform="translate(2.000000, 281.000000)">
+                    <g id="Checkbox/Active">
+                        <g id="UI/Container/Rounded（3px）">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="UI/Color/Primary" mask="url(#mask-2)" fill="#008DFF" fill-rule="evenodd">
+                                <rect id="base" x="0" y="0" width="14" height="14"></rect>
+                            </g>
+                        </g>
+                        <g id="UI/Icon/Indeterminate(for-checkbox)" fill-rule="evenodd" stroke-width="1">
+                            <g id="UI/Color/40%black" transform="translate(3.000000, 6.250000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill="#D8D8D8" xlink:href="#path-3"></use>
+                                <g id="UI/Color/White" mask="url(#mask-4)" fill="#FFFFFF">
+                                    <rect id="base-copy" x="0" y="0" width="8" height="2"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

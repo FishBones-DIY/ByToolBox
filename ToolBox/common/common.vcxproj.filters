@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a5302529-c424-46f2-b5c0-5a266c78cdef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{022eaa2c-3240-45b9-9992-3ae20b511e73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="uitils\reg_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="public\log.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="uitils\path_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="uitils\string_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="uitils\process_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="uitils\file_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uitils\reg_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="public\log.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public\nocopyable.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public\load_lib.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="uitils\path_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="uitils\string_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="uitils\process_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="uitils\file_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

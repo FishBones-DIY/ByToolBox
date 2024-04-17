@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14" height="14" rx="3"></rect>
+        <path d="M9.25262148,1.01811316 L9.28336336,1.04881644 L9.28336336,1.04881644 C9.57342627,1.35691022 9.57592162,1.83683401 9.28907817,2.14792741 L4.6041666,7.22890464 C4.29804362,7.56090748 3.79096703,7.60896804 3.42792107,7.34038883 C3.39017737,7.31246626 3.35602018,7.28149569 3.32553799,7.24806879 L3.28284867,7.21106559 L0.901969841,4.98284438 C0.599649291,4.69990808 0.556818016,4.23553358 0.802285551,3.9020724 C0.814123707,3.88599058 0.826682127,3.87045161 0.839922426,3.85550298 C1.08278983,3.58129966 1.50195848,3.55589687 1.7761618,3.79876428 L1.7761618,3.79876428 L3.90223902,5.68167409 L8.25427734,1.049463 C8.52130544,0.765120856 8.96827934,0.751085055 9.25262148,1.01811316 Z" id="path-3"></path>
+    </defs>
+    <g id="天擎客户端V10控件库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-81.000000, -2415.000000)">
+            <g id="B" transform="translate(79.000000, 2163.000000)">
+                <g id="Checkbox/Active+Text" transform="translate(2.000000, 252.000000)">
+                    <g id="Checkbox/Active">
+                        <g id="UI/Container/Rounded（3px）">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="UI/Color/Primary" mask="url(#mask-2)" fill="#008DFF" fill-rule="evenodd">
+                                <rect id="base" x="0" y="0" width="14" height="14"></rect>
+                            </g>
+                        </g>
+                        <g id="UI/Icon/Checkbox" fill-rule="evenodd" stroke-width="1">
+                            <g id="↳-🎨Color" transform="translate(2.000000, 3.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill="#666666" xlink:href="#path-3"></use>
+                                <g id="UI/Color/White" mask="url(#mask-4)" fill="#FFFFFF">
+                                    <rect id="base-copy" x="0" y="0" width="10" height="8"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

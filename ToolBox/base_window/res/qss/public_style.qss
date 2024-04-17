@@ -1,0 +1,16 @@
+QLabel[whatsThis="default_title"]
+{
+	color:black;
+	font-size:16px;
+	font-weight:400;
+	font-family:Microsoft Yahei;
+}
+
+QLabel[whatsThis="default_logo"]
+{
+	border-image:url(:/public/logo);
+	min-height: 17x;
+	max-height: 17px;
+	min-width: 17px;
+	max-width: 17px;
+}

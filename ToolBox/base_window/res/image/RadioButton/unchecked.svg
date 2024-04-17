@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>未选中态</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="3" cy="3" r="3"></circle>
+    </defs>
+    <g id="天擎客户端V10控件库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-10.000000, -2442.000000)">
+            <g id="B" transform="translate(10.000000, 2163.000000)">
+                <g id="未选中态" transform="translate(0.000000, 279.000000)">
+                    <g id="Radio-Button/Active">
+                        <g id="UI/Border/Rounded(100px)-15%-Black" stroke="#D9D9D9">
+                            <rect id="base-border" x="0.5" y="0.5" width="13" height="13" rx="6.5"></rect>
+                        </g>
+                        <g id="--UI/Icon/Oval" fill-rule="evenodd" transform="translate(4.000000, 4.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <g id="UI/Color/White" mask="url(#mask-2)" fill="#FFFFFF">
+                                <rect id="base-copy" x="0" y="0" width="6" height="6"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,425 @@
+/* 主窗口 */
+QWidget[whatsThis="central_widget"] {
+    background:rgb(53, 54,58);
+    border-radius:10px;
+}
+
+/* messagebox之后的主窗口变暗的遮罩 */
+QWidget[whatsThis="central_widget_darken"] {
+    background:rgba(0, 0, 0, 70);
+    border-radius:10px;
+}
+
+/* 主窗口标题栏 */
+QWidget[whatsThis="main_title_bar"] {
+}
+
+/* 主窗口标题栏 */
+QLabel[whatsThis="default_title"] {
+    color:wheat;
+	font-size:16px;
+	font-weight:400;
+	font-family: SimHei;
+}
+
+
+/* 主窗口版本label */
+QLabel[whatsThis="version_label"]:pressed{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+}
+
+/* 主tab_widget的tab */
+QLabel[whatsThis="by_tab_button_text"] {
+    font-size: 14px;
+    font-family: SimHei;
+    color:wheat;
+} 
+
+/* 主tab_widget-tab样式 */
+QPushButton[whatsThis="by_tab_button"] {
+    border-bottom-width:4px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-bottom: 0px;
+    background: transparent;
+} 
+/* 主tab_widget-tab在选中下的样式 */
+QPushButton[whatsThis="by_tab_button"]:Checked {
+    opacity: 0.1;
+    border-bottom:3px solid rgb(247,109,44);
+    font-family: Microsoft Yahei;
+}
+/* 主tab_widget-tab在未选中下的鼠标悬停样式 */
+QPushButton[whatsThis="by_tab_button"]:!Checked:hover {
+    background:rgba(255, 255,255, 25);
+}
+
+/* 主tab_widget-widget */
+QStackedWidget[whatsThis="by_tab_stack_widget"] {
+    background: transparent;
+    border-top: 1px solid rgb(221,221,221);
+}
+
+/* 主tab_widget-widget-滚轮背景widget */
+QScrollArea[whatsThis="by_tab_scroll_area"]{
+    /*background: transparent;*/
+    background: transparent;
+    border:none;
+}
+/* 主tab_widget-widget-滚轮 */
+QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar:vertical{
+    /*滚轮宽度 暂时去掉滚轮*/
+    width: 0px;
+    background: transparent;
+    margin-bottom:10px;
+}
+QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar:handle:vertical{
+    background: rgba(247,109,44,90%);
+    border-radius: 4px;
+    min-height: 20;
+}
+QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar:handle:vertical:hover{
+    background: rgba(247,109,44,100%);
+}
+QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar::add-line:vertical 
+{
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar::sub-line:vertical  
+{
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar::add-page:vertical{
+    background:none;
+ }
+ QScrollArea[whatsThis="by_tab_scroll_area"] QScrollBar::sub-page:vertical{
+     background:none;
+  }
+
+/* 快捷键-widget样式 */
+QWidget[whatsThis="shortcut_key_widget"]{
+    background: transparent;
+    border:none;
+}
+
+/* 快捷键-button样式 */
+QPushButton[whatsThis="shortcut_key_button"]{
+    background:rgb(247,109,44); 
+    border-style:outset;  
+    border-radius:10px;
+    font-family: SimHei;
+    font-size: 18px;
+    font-weight:300;
+    color:rgb(255,255,255); 
+    padding:20px; 
+}
+QPushButton[whatsThis="shortcut_key_button"]:hover{
+    background-color:rgb(247,157,44);
+}
+QPushButton[whatsThis="shortcut_key_button"]:pressed{
+    background-color:rgb(247,109,44);
+}
+
+/* 快捷键-button-显示label */
+QLabel[whatsThis="shortcut_key_name_label"]{
+    font-family: SimHei;
+    font-size: 18px;
+    font-weight:300;
+    color:rgb(255,255,255); 
+}
+
+
+/* 便签widget */
+QWidget[whatsThis="sticky_note_widget"] {
+    border:none;
+    background: transparent;
+} 
+
+/* 便签-文件列表 */
+QWidget[whatsThis="note_bar_widget"]{
+    background: transparent;
+    border:none;
+}
+/* 便签-文件列表-滚轮 */
+QScrollArea[whatsThis="sticky_note_scroll_area"]{
+    background: transparent;
+    border:none;
+    border-right: 1px solid rgb(244,246,247);
+}
+QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar:vertical{
+    width: 4px;
+    background: transparent;
+    margin-bottom:0px;
+}
+QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar:handle:vertical{
+    background: rgba(247,109,44,90%);
+    border-radius: 2px;
+    min-height: 20;
+}
+QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar:handle:vertical:hover{
+    background: rgba(247,109,44,100%);
+}
+QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar::add-line:vertical 
+{
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar::sub-line:vertical  
+{
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar::add-page:vertical{
+    background:none;
+ }
+ QScrollArea[whatsThis="sticky_note_scroll_area"] QScrollBar::sub-page:vertical{
+     background:none;
+  }
+
+/* 便签-文件列表-添加按钮 */
+QPushButton[whatsThis="note_add_button"]{
+    min-height: 40;
+    border:none;
+    background-color:rgb(247,157,44);
+    margin-bottom:0px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 4px;
+}
+QPushButton[whatsThis="note_add_button"]:hover{
+    background-color:rgb(247,109,44);
+}
+QPushButton[whatsThis="note_add_button"]:pressed{
+    background-color:rgb(247,157,44);
+}
+
+/* 便签-文件列表-添加提示 */
+QLabel[whatsThis="note_add_text_label"]{
+    color:rgb(230,230,230);
+    color:whitesmoke;
+    font-size: 18px;
+    font-family: SimHei;
+}
+
+/* 便签-文件列表 */
+QPushButton[whatsThis="note_bar_button"] {
+    min-height: 60;
+    border:none;
+    border-bottom: 1px solid rgb(244,246,247);
+    border-bottom: 1px solid rgb(113,106,94);
+    background: transparent;
+    margin-bottom:0px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: SimHei;
+    color:wheat;
+} 
+QPushButton[whatsThis="note_bar_button"]:Checked {
+    background: rgb(244,246,247);
+    background:rgba(255,255, 255, 25);
+    border-bottom: 1px solid transparent;
+}
+QPushButton[whatsThis="note_bar_button"]:!Checked:hover {
+    background: rgb(244,246,247);
+    background:rgba(255, 255,255, 25);
+    border-bottom: 1px solid transparent;
+}
+
+/* 便签-显示widget */
+QWidget[whatsThis="note_content_widget"]{
+    background: transparent;
+    border:none;
+}
+
+/* 便签-显示-保存按钮 */
+QPushButton[whatsThis="note_save_button"]{
+    background: rgba(247,109,44,90%);
+    border:none;
+    border-radius: 4px;
+    width: 58;
+    height: 27;
+    margin-right:50px;
+    color: wheat;
+    font-size: 14px;
+    font-family: SimHei;
+    font-weight: bold;
+}
+QPushButton[whatsThis="note_save_button"]:hover{
+    background-color:rgb(247,157,44);
+}
+QPushButton[whatsThis="note_save_button"]:pressed{
+    background-color:rgb(247,109,44);
+}
+QWidget[whatsThis="note_title_widger"]{
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid rgb(244,246,247);
+    
+}
+
+/* 便签-显示-标题edit */
+QLineEdit[whatsThis="note_title_edit"]{
+    background: transparent;
+    border:none;
+    margin-left:15px;
+    max-width: 20;
+    height: 40;
+    font-size: 25px;
+    font-family: Microsoft Yahei;
+    color:wheat;
+}
+
+/* 便签-显示-已保存提示 */
+QLabel[whatsThis="note_save_tips_content"]{
+    color: rgb(190,190,201);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Microsoft JhengHei;  
+}
+
+/* 便签-显示-已保存提示按钮 */
+QPushButton[whatsThis="note_save_tips_button"]{
+    background: transparent;
+    border:none;
+    width: 80;
+    height:30;
+}
+
+/* 便签-显示-内容edit */
+QTextEdit[whatsThis="note_text_edit"]{
+    background: transparent;
+    border:none;
+    margin-left:15px;
+    margin-top:4px;
+    color:wheat;
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar:vertical{
+    width: 4px;
+    background: transparent;
+    margin-bottom:10px;
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar:handle:vertical{
+    background: rgba(247,109,44,90%);
+    border-radius: 2px;
+    border: none;
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar:handle:vertical:hover{
+    background: rgba(247,109,44,100%);
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar::add-line:vertical 
+{
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar::sub-line:vertical  
+{
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar::add-page:vertical{
+   background:none;
+}
+QTextEdit[whatsThis="note_text_edit"] QScrollBar::sub-page:vertical{
+    background:none;
+ }
+
+/* 便签-文件列表-右键弹窗widget */
+QWidget[whatsThis="note_move_button_background_widget"]{
+    border-radius: 4px;
+    background:rgb(53, 54,58);
+    border:none;
+    border-bottom: 1px solid rgb(240,243,245);
+}
+
+/* 便签-文件列表-右键弹窗-上下移动按钮 */
+QPushButton[whatsThis="note_move_button"]{
+    border:none;
+    background: transparent;
+    border-radius: 4px;
+    border-bottom: 1px solid rgb(244,246,247);
+    border-bottom: 1px solid rgb(113,106,94);
+    color:wheat;
+}
+QPushButton[whatsThis="note_move_button"]:hover{
+    background:rgba(255, 255,255, 25);
+    border-bottom: 1px solid transparent;
+}
+QPushButton[whatsThis="note_move_button"]:pressed{
+    border-bottom: 1px solid transparent;
+}
+
+/* message_box */
+QWidget[whatsThis="by_message_box"]{
+    min-width: 400;
+    max-width: 500;
+    min-height: 141;
+    border-radius: 6px;
+    background:rgb(53, 54,58);
+    border:none;
+}
+
+/* message_box-标题提示 */
+QLabel[whatsThis="by_message_box_title_label"]{
+    color:wheat;
+    font-size: 16px;
+    font-family: Microsoft Yahei;
+}
+
+/* message_box-内容提示 */
+QLabel[whatsThis="by_message_box_content_label"]{
+    margin-top:15px;
+    margin-bottom:14px;
+    margin-left:46px;
+    margin-right:48px;
+    
+    color:rgb(134,144,162);
+    font-size: 14px;
+    font-family: SimHei;
+}
+
+/* message_box-取消按钮 */
+QPushButton[whatsThis="by_message_box_cancel_button"]{
+    width: 85;
+    height: 32;
+    border:none;
+    background: rgb(240,243,245);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: SimHei;
+}
+QPushButton[whatsThis="by_message_box_cancel_button"]:hover{
+    background: rgb(225,230,237);
+}
+QPushButton[whatsThis="by_message_box_cancel_button"]:pressed{
+    background: rgb(240,243,245);
+}
+
+/* message_box-确定按钮 */
+QPushButton[whatsThis="by_message_box_ok_button"]{
+    width: 85;
+    height: 32;
+    border:none;
+    background-color:rgb(247,157,44);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: SimHei;
+    color: white;
+}
+QPushButton[whatsThis="by_message_box_ok_button"]:hover{
+    background-color:rgb(247,109,44);
+}
+QPushButton[whatsThis="by_message_box_ok_button"]:pressed{
+    background-color:rgb(247,157,44);
+}
+
