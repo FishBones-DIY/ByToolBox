@@ -1,23 +1,23 @@
-# By¹¤¾ßÏä
+# Byå·¥å…·ç®±
 
-## ¿ì½İ¼ü¹¦ÄÜ
+## å¿«æ·é”®åŠŸèƒ½
 
-### ×Ô¶¨Òå¹¦ÄÜ
-¿ÉÔÚ³ÌĞòÖĞ×Ô¶¨Òå¹¦ÄÜÀà£¬¼Ì³ĞShortcutKeyItem¼´¿É¡£
+### è‡ªå®šä¹‰åŠŸèƒ½
+å¯åœ¨ç¨‹åºä¸­è‡ªå®šä¹‰åŠŸèƒ½ç±»ï¼Œç»§æ‰¿ShortcutKeyItemå³å¯ã€‚
 ```c++
 void Core::loadShortcutKeyItems()
 {
-	ShortcutKeyMgr.add(std::make_shared<RunTQ>(L"ÔËĞĞÌìÇæ"));
-	ShortcutKeyMgr.add(std::make_shared<CloseSP>(L"¹Ø±Õ×Ô±£"));
-	ShortcutKeyMgr.add(std::make_shared<CloseTQ>(L"¹Ø±ÕÌìÇæ"));
-	ShortcutKeyMgr.add(std::make_shared<CloseSPAndReplaceSafeBase>(L"Ìæ»»SafeBase.dll"));
+	ShortcutKeyMgr.add(std::make_shared<RunTQ>(L"è¿è¡Œå¤©æ“"));
+	ShortcutKeyMgr.add(std::make_shared<CloseSP>(L"å…³é—­è‡ªä¿"));
+	ShortcutKeyMgr.add(std::make_shared<CloseTQ>(L"å…³é—­å¤©æ“"));
+	ShortcutKeyMgr.add(std::make_shared<CloseSPAndReplaceSafeBase>(L"æ›¿æ¢SafeBase.dll"));
 }
 ```
 
-<img style="clear:both; display:block; margin:auto;" src="https://note.youdao.com/yws/api/personal/file/WEB20b0a968d258713a50836175f1a00990?method=download&shareKey=1ceab90219a4c93e41a15aa7544a871b" width="60%" />
+<img style="clear:both; display:block; margin:auto;" src="https://github.com/FishBones-DIY/Image/blob/main/ByToolBox_shortcut_key.png" width="60%" />
 
-## ±ãÇ©¹¦ÄÜ
+## ä¾¿ç­¾åŠŸèƒ½
 
-ÊÇÒ»¸ö¼«¼òµÄ±Ê¼Ç±¾¹¦ÄÜ£¬5s×Ô¶¯±£´æÄÚÈİ¡£
+æ˜¯ä¸€ä¸ªæç®€çš„ç¬”è®°æœ¬åŠŸèƒ½ï¼Œ5sè‡ªåŠ¨ä¿å­˜å†…å®¹ã€‚
 
-<img style="clear:both; display:block; margin:auto;" src="https://note.youdao.com/yws/api/personal/file/WEB46f19fb505d4b3aaeff3d8edb38a2c39?method=download&shareKey=69927159fcbcf0bb1dc15e8cec5e65cf" width="60%" />
+<img style="clear:both; display:block; margin:auto;" src="https://github.com/FishBones-DIY/Image/blob/main/ByToolBox_notes.png" width="60%" />
