@@ -14,10 +14,10 @@ void Core::loadShortcutKeyItems()
 }
 ```
 
-<img style="clear:both; display:block; margin:auto;" src="https://github.com/FishBones-DIY/Image/blob/main/ByToolBox_shortcut_key.png" width="60%" />
+<img style="clear:both; display:block; margin:auto;" src="https://github.com/FishBones-DIY/Image/blob/main/ByToolBox_shortcut_key.png" width="100%" />
 
 ## 便签功能
 
 是一个极简的笔记本功能，5s自动保存内容。
 
-<img style="clear:both; display:block; margin:auto;" src="https://github.com/FishBones-DIY/Image/blob/main/ByToolBox_notes.png" width="60%" />
+<img style="clear:both; display:block; margin:auto;" src="https://github.com/FishBones-DIY/Image/blob/main/ByToolBox_notes.png" width="100%" />
